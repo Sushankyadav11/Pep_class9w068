@@ -1,0 +1,12 @@
+// Use an arrow function to reverse a given string. For example, if the input is "hello", the output
+// should be "olleh". using loop
+
+const reverseStr = (str) => {
+    let reversed = '';
+    for(let i = str.length - 1; i >= 0; i--) {
+        reversed += str[i];
+    }
+    return reversed;
+}
+
+console.log(reverseStr("hello"));
